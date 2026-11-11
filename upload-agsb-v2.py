@@ -31,11 +31,11 @@ DEBUG_LOG = INSTALL_DIR / "python_debug.log"
 CUSTOM_DOMAIN_FILE = INSTALL_DIR / "custom_domain.txt" # 存储最终使用的域名
 
 # ====== 全局可配置参数（可直接在此处修改） ======
-USER_NAME = "nycmn"         # 用户名
+USER_NAME = "jianxianapp"         # 用户名
 UUID = "6eab9235-c847-4891-8de2-19709f473520"                     # UUID，留空则自动生成
 PORT = 20036                   # Vmess端口，留空或0则自动生成
 DOMAIN = "googlecloud.jianxian.nyc.mn"                   # 域名，留空则自动获取
-CF_TOKEN = "eyJhIjoiZTNlYmU5NDY1NjJjOGZjMjBmYzg4Y2U5MGJlODRjYTMiLCJ0IjoiZWFlZTA0MTMtODI2Yi00MWIxLWJhMWQtYjY2ZjI1MDVlNDIyIiwicyI6Ik0yRTNaRFEwTlRNdE5HWTBPQzAwWVdRM0xUZzRNek10WlRVNU5UQXlZek01TWpSbSJ9"                 # Cloudflare Token，留空则用Quick Tunnel
+CF_TOKEN = "eyJhIjoiZTNlYmU5NDY1NjJjOGZjMjBmYzg4Y2U5MGJlODRjYTMiLCJ0IjoiZGRhNjdlYzktYTc1OS00MDIxLThhMjktZDRiNWFjYjVjNGRmIiwicyI6IlpqZ3hPVGMzT1RjdE5tRTRaaTAwWVdNMUxXRTFPV1F0Tnpaak1tVTVZV05qWkRFMSJ9"                 # Cloudflare Token，留空则用Quick Tunnel
 # =========================================
 
 # 添加命令行参数解析
